@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #093028;
+    /* background-color: linear-gradient(to bottom,#093028,#237a57); */
+}
+
+.container {
+    position: absolute;
+    color: white;
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+}
+
+#section {
+    color: lightgreen;
+}
+.Heading{
+    position: absolute;
+    color: lightgreen;
+    display: flex;
+    top: 20%;
+    left: 30%;
+    font-size: 25px;
+}

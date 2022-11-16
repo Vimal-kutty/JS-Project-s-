@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: aliceblue;
+}
+.Container{
+    width: 700px;
+    background-color: gray;
+    border-radius: 10px;
+    padding: 20px 50px;
+
+}
+.Container .header{
+    font-size: 1.6rem;
+    color: none;
+    text-align: center;
+
+}
+.Container .quotes{
+    text-align: center;
+    margin: 50px 0px;
+}
+.Container .author{
+    text-align: end;
+    margin: 1px 0px;
+}
+.btn{
+    align-items: center;
+    text-align: center;
+    margin: 20px 0px;
+}
+.btn button{
+    padding: 5px 20px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background-color: none;
+}
